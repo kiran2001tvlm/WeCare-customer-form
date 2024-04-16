@@ -61,29 +61,28 @@
                         <label for="first_name" class="form-label">First Name :</label>
                     </div>
                     <div class="col-lg-6">
-                        <input id="first_name" class="form-control" maxlength="40" name="first_name" type="text" required/>
+                        <input id="first_name" class="form-control" maxlength="40" name="first_name" type="text" pattern="^[A-Z a-z]+$" required/>
                     </div>
 
                     <div class="col-lg-6">
                         <label for="last_name" class="form-label">Last Name :</label>
                     </div>
                     <div class="col-lg-6">
-                        <input id="last_name" class="form-control" maxlength="80" name="last_name" size="20"
-                            type="text" />
+                        <input id="last_name" class="form-control" maxlength="80" name="last_name" size="20" type="text" pattern="^[A-Z a-z]+$"/>
                     </div>
 
                     <div class="col-lg-6">
                         <label for="email" class="form-label">Email :</label>
                     </div>
                     <div class="col-lg-6">
-                        <input id="email" class="form-control" maxlength="80" name="email" size="20" type="text" required/>
+                       <input id="email" class="form-control" maxlength="80" name="email" size="20" type="email" required/>
                     </div>
 
                     <div class="col-lg-6">
                         <label for="phone" class="form-label">Phone :</label>
                     </div>
                     <div class="col-lg-6">
-                        <input id="phone" class="form-control" maxlength="40" name="phone" size="20" type="text" required/>
+                        <input id="phone" class="form-control" maxlength="40" name="phone" size="20" type="text" pattern="^[6-9]\d{9}$" required/>
                     </div>
 
                     <div class="col-lg-6">
